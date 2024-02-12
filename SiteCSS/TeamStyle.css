@@ -1,0 +1,75 @@
+.teamMain {
+    color: white;
+    font-size: 1.5vw;
+    padding: 2vh 2vw;
+    margin: 0 10vw;
+    border: solid white 2px;
+}
+
+.member {
+    color: white;
+    font-family: Consolas;
+    text-decoration: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    grid-template-areas:
+        'mName'
+        'mBody'
+        'mSocials';
+}
+
+.memberBorderBottom {
+    border-bottom: solid 2px #8787878c;
+}
+
+.memberName {
+    grid-area: mName;
+    font-weight: bold;
+    font-size: max(1.75vw, 24px);
+}
+
+.memberBody {
+    grid-area: mBody;
+    font-size: max(1.25vw, 18px);
+    color: white;
+}
+
+.memberSocials {
+    grid-area: mSocials;
+    color: white;
+    text-align: right;
+    font-size: max(1.25vw, 18px);
+}
+
+    .memberSocials a {
+        color: #00cbff;
+        text-decoration: none;
+    }
+
+
+@media (max-width: 1023px) {
+    .memberBorderBottom {
+        border-bottom: solid 2px #8787878c;
+    }
+
+    .memberName {
+        font-weight: bold;
+        font-size: calc(3vw + 6px);
+    }
+
+    .memberBody {
+        font-size: calc(2vw + 6px);
+    }
+
+    .memberSocials {
+        text-align: right;
+        font-size: calc(2vw + 6px);
+    }
+
+        .memberSocials a {
+            color: #00cbff;
+            text-decoration: none;
+        }
+
+
+}

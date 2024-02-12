@@ -1,0 +1,42 @@
+.blogWholeSection {
+    padding: 2vh 2vw;
+    margin: 0 7.5vw;
+}
+
+.blogSection {
+    border: solid white 1px;
+    padding: 1%;
+    display: grid;
+    grid-template-areas:
+        'blogTitle blogMedia'
+        'blogBody blogMedia';
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.blogTitle {
+    grid-area: blogTitle;
+    font-weight: bold;
+    font-size: max(1.75vw, 24px);
+    width: fit-content;
+}
+
+.blogBody {
+    grid-area: blogBody;
+    width: 75%;
+    font-size: max(1.25vw, 18px);
+    padding-left: 5vw;
+}
+
+.blogBody p {
+    text-indent: 5vw; 
+}
+
+.blogMedia {
+    grid-area: blogMedia;
+}
+
+.blogMedia img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,58 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+html {
+    scroll-padding-top: 20vh;
+}
+
+.overall-title {
+    margin: 1% 0;
+    font-size: max(3vw, 48px);
+    text-align: center;
+    font-family: tempFont;
+}
+
+.anchorTitle {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    overflow: hidden;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #181818;
+    padding-bottom: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton {
+    display: flex;
+    font-size: max(1vw, 24px);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 5%;
+    font-family: Neuropolitical;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@font-face {
+    font-family: tempFont;
+    src: url('../SiteFonts/neuropolitical.ttf');
+}
