@@ -12,6 +12,7 @@
         'blogBody blogMedia';
     grid-template-rows: auto;
     grid-template-columns: auto;
+    margin-bottom: 5vh;
 }
 
 .blogTitle {
@@ -33,6 +34,8 @@
 }
 
 .blogMedia {
+    display: flex;
+    align-items: center;
     grid-area: blogMedia;
 }
 
