@@ -46,13 +46,19 @@ html {
     font-family: Neuropolitical;
     text-decoration: none;
     color: white;
+    transition: linear 0.1s;
 }
 
+    .menuButton:hover {
+        transition: linear 0.1s;
+        transform: scale(1.2);
+    }
 
 
 
 
-@font-face {
-    font-family: tempFont;
-    src: url('../SiteFonts/neuropolitical.ttf');
-}
+
+    @font-face {
+        font-family: tempFont;
+        src: url('../SiteFonts/neuropolitical.ttf');
+    }

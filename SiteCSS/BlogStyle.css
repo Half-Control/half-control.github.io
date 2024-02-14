@@ -1,32 +1,24 @@
 .blogWholeSection {
-    padding: 2vh 2vw;
-    margin: 0 7.5vw;
+    padding: 5vh 5vw;
+    margin: 0 10vw;
 }
 
 .blogSection {
     border: solid white 1px;
     padding: 1%;
-    display: grid;
-    grid-template-areas:
-        'blogTitle blogMedia'
-        'blogBody blogMedia';
-    grid-template-rows: auto;
-    grid-template-columns: auto;
     margin-bottom: 5vh;
 }
 
 .blogTitle {
-    grid-area: blogTitle;
     font-weight: bold;
     font-size: max(1.75vw, 24px);
     width: fit-content;
 }
 
 .blogBody {
-    grid-area: blogBody;
-    width: 75%;
+    width: 90%;
     font-size: max(1.25vw, 18px);
-    padding-left: 5vw;
+    padding: 0 5vw;
 }
 
 .blogBody p {
@@ -34,12 +26,14 @@
 }
 
 .blogMedia {
-    display: flex;
-    align-items: center;
-    grid-area: blogMedia;
+    text-align: center;
 }
 
 .blogMedia img {
-    width: 100%;
+    width: 30%;
     height: auto;
+}
+
+.blogMedia p {
+    display: block;
 }
