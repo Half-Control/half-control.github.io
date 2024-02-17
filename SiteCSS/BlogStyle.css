@@ -1,3 +1,8 @@
+a {
+    color: aqua;
+}
+
+
 .blogWholeSection {
     padding: 5vh 5vw;
     margin: 0 10vw;
@@ -13,27 +18,41 @@
     font-weight: bold;
     font-size: max(1.75vw, 24px);
     width: fit-content;
+    padding-bottom: 5vh;
 }
 
+.blogTitleMember {
+    font-size: max(1.75vw, 24px);
+    text-indent: 3vw;
+}
+
+    .blogTitleMember a {
+        color: white;
+    }
+
 .blogBody {
-    width: 90%;
     font-size: max(1.25vw, 18px);
     padding: 0 5vw;
 }
 
-.blogBody p {
-    text-indent: 5vw; 
-}
+    .blogBody p {
+        text-indent: 3vw;
+    }
 
 .blogMedia {
     text-align: center;
 }
 
-.blogMedia img {
-    width: 30%;
-    height: auto;
-}
+    .blogMedia img {
+        width: 50%;
+        height: auto;
+    }
 
-.blogMedia p {
-    display: block;
-}
+    .blogMedia video{
+        width: 50%;
+        height: auto;
+    }
+
+    .blogMedia p {
+        display: block;
+    }
