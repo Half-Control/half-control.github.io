@@ -18,7 +18,7 @@ a {
     font-weight: bold;
     font-size: max(1.75vw, 24px);
     width: fit-content;
-    padding-bottom: 5vh;
+    padding-bottom: 2.5vh;
 }
 
 .blogTitleMember {
@@ -48,7 +48,7 @@ a {
         height: auto;
     }
 
-    .blogMedia video{
+    .blogMedia video {
         width: 50%;
         height: auto;
     }
@@ -56,3 +56,8 @@ a {
     .blogMedia p {
         display: block;
     }
+
+
+.ProjectLink {
+    font-size: max(1.25vw, 18px);
+}
