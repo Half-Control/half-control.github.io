@@ -183,10 +183,13 @@
                     </div>
                     <div class="blogBody">
                         <p>
-                            This week I helped get a networked connection up between two clients over LAN! There were some difficulties we encountered such as finding out two Unity editors cannot connect to LAN, at least one has to be from a build. With a LAN Connection setup, now I can start working on the fun stuff: passing data over that connection!
+                            This week I helped get a networked connection up between two clients over LAN! We connected the two clients via one editor instance and one build instance running using Netcode for Game Objects and following <a href="https://docs-multiplayer.unity3d.com/netcode/current/tutorials/get-started-ngo/" target="_blank"> this</a> tutorial for some starting points. With a LAN Connection setup, now I can start working on the fun stuff: passing data over that connection!
                         </p>
                         <p>
                             Aside from networking I also got a base UI setup working with a Restart/Quit menu for singleplayer and a multiplayer menu containing LAN or Online Host/Join options! One of the hurdles I had to cover this week with UI having the player being able to interact with it. That was solved by using a RayCast when the player pressed the right trigger on the UI. This also helped me to incorporate some feedback to the player with some hover and confirm sound effects.
+                        </p>
+                        <p>
+                            One important thing we found when testing LAN was that two Unity editors cannot connect to LAN, at least one instance has to be from a build/packaged version of the project.
                         </p>
                     </div>
                     <div class="blogMedia">
