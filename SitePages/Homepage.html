@@ -35,8 +35,8 @@
             <div class="cell-m1b3"> <p> <a href="../SitePages/Homepage.html#Month1Build3"> Build 3</a> </p> </div>
             <div class="cell-m2title"> <p>Month 2</p> </div>
             <div class="cell-m2b1"> <p> <a href="../SitePages/Homepage.html#Month2Build1"> Build 1</a> </p> </div>
-            <!--<div class="cell-m2b2"> <p> <a href="../SitePages/Homepage.html#Month2Build2"> Build 2</a> </p> </div>
-            <div class="cell-m2b3"> <p> <a href="../SitePages/Homepage.html#Month2Build3"> Build 3</a> </p> </div>
+            <div class="cell-m2b2"> <p> <a href="../SitePages/Homepage.html#Month2Build2"> Build 2</a> </p> </div>
+            <!--<div class="cell-m2b3"> <p> <a href="../SitePages/Homepage.html#Month2Build3"> Build 3</a> </p> </div>
             <div class="cell-m2b4"> <p> <a href="../SitePages/Homepage.html#Month2Build4"> Build 4</a> </p> </div>
 
             <div class="cell-m3title"> <p>Month 3</p> </div>
@@ -95,6 +95,63 @@
                     <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/" /> <p> Caption Media </p> </div>
                 </div>
             </section>-->
+            <section id="Month2Build2">
+                <div class="blogSection">
+                    <div class="blogTitle">
+                        March. 17th, 2024 - A Relaxed Rework
+                        <div class="ProjectLink">
+                            <p>Watch our build of <a href="https://drive.google.com/file/d/1EPog2eQFPym92eu9wYzOT0J_W58bcBjZ/view" target="_blank">Version 0.5 </a> here. </p>
+                        </div>
+                    </div>
+                    <div class="blogTitleMember"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175246834611712000/" target="_blank"> Jerry B. </a> </div>
+                    <div class="blogBody">
+                        <p> For the past couple of weeks I have been reworking the enemy code to function better when I eventually network it. This week I actually applied that networked code. Enemies will move on the host using a nav agent and the client's enemy transform will mimic that. From there I have local procedural animation for the legs and networked weapon attacks that function very similarly to the movement. </p>
+                        <p> For next sprint I plan on setting up an attack queue to limit the number of incoming attacks on one player as well as altering the attacks themselves to include a startup before actually attacking. </p>
+                        <p> Overall I am very happy with the progress of the enemies and I should be making more frequent posts moving forward. Here's a video showing off the enemies and their attacks being synced across a local network. </p>
+                    </div>
+                    <div class="blogMedia">
+                        <video controls>
+                            <source src="../SiteImages/BlogMedia/Jerry/Jerry_NetwrokedEnemiesAndWeapons.mp4" type="video/mp4">
+                        </video> <p> Enemy Attacks being synced! </p>
+                    </div>
+                    <div class="blogTitleMember"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175338850137862144/" target="_blank"> Zach B. </a> </div>
+                    <div class="blogBody">
+                        <p>
+                            For the past few weeks I've been continuing work on my Procedural Generation for the Dungeon in our VR Dungeon Crawler. This has included pathfinding hallways using the A* algorithm as well as making sure walls appear as needed. In the video below you can see our tileset starting to be implemented which required some tweaks for scaling. My next steps are big ones as i must begin generating interiors with chests and enemies and then..... multiple floors interconnected with each other. Should be fun to try and figure out though so I'm excited to get to business... lord business.
+                        </p>
+                    </div>
+                    <div class="blogMedia">
+                        <video controls>
+                            <source src="../SiteImages/BlogMedia/Zach/Zach_ProceduralGenerationM2W2.mp4">
+                        </video>
+                        <p> Caption Media </p>
+                        <img src="../SiteImages/BlogMedia/Zach/Zach_Figure1.png"> <p> Parts of my A* algorithm that I wanted to show off. </p>
+                        <img src="../SiteImages/BlogMedia/Zach/Zach_Figure2.png"> <p> The Bowyer-Watson Algorithm that I have made to work with Dungeon Generation. </p>
+                    </div>
+                    <!--<div class="blogTitleMember"> <a href="linkedin post link" target="_blank"> Tom O. </a> </div>
+                    <div class="blogBody">
+                        <p> </p>
+                    </div>
+                    <div class="blogMedia">
+                        <img src="../SiteImages/BlogMedia/Tom/"> <p> Caption Media </p>
+                    </div>
+                    <br />-->
+                    <div class="blogTitleMember"> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7175035738466471936/" target="_blank"> Kevin W. </a> </div>
+                    <div class="blogBody">
+                        <p>
+                            One of the main challenges we are facing during development is the ability to rejoin a lobby seamlessly and having the user be notified of when they can properly join back in. While Unity has Rate Limits on how fast a user can request a server's info, getting the player to be 1) removed from the lobby was vital to reconnecting and 2) visually letting the player know when they can reconnect was also important. I will wait before showing this feature off but still wanted to post about it.
+                        </p>
+                        <p>
+                            Another thing I spent some time working on was the player UI and a Testing Target that we can use to debug some damage values from weapons! There are three sliders for the types of resistance enemies will have. The resistance percentages of Pointy (Piercing), Bonk (Blunt), and Swish (Slashing) can all be customized with the Testing Target so we as developers can get a feel for enemies and also players can have some fun while waiting in the Sandbox Lobby!
+                        </p>
+                        <p>
+                            Alongside the Player UI are the Player Options UI and Player Stats UI, while I did work on this last week I didn't have it visually appealing but I think it's at a point in which I can provide some media for it! The Options menu is currently modular so we can add as many options in the future as we will need. The player health bar was also implemented around their waste as to not take up screen space and overwhelm the player.
+                        </p>
+                    </div>
+                    <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/Kevin_TargetDummy.gif" /> <p> The current Testing Target for weapons and resistance values! </p> </div>
+                    <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/Kevin_PlayerUI.gif" /> <p> The current Player UI and Options Menu in-game. </p> </div>
+                </div>
+            </section>
             <section id="Month2Build1">
                 <div class="blogSection">
                     <div class="blogTitle">
@@ -145,7 +202,7 @@
                             My teammates and I wanted to take it a bit slower heading into the second month as we were reworking and fixing up many of Month 1's codebase to provide a better foundation for our future development!
                         </p>
                         <p>
-                            One of the main things that I worked on this past week was a new Sandbox Lobby Scene that players can hop into to create their dungeons. The sandbox lobby will feature three main areas but has room for expansions later on. 
+                            One of the main things that I worked on this past week was a new Sandbox Lobby Scene that players can hop into to create their dungeons. The sandbox lobby will feature three main areas but has room for expansions later on.
                         </p>
                         <p>
                             There will be a common area where you can view unlocked weapons, host/join lobbies, and customize your character. A Generator Room where you can select the size of the Dungeon you want to procedurally generate. Lastly, a Tutorial room where players can test weapons against Target Models and manipulate their resistance values.
