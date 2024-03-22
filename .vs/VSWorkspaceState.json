@@ -5,11 +5,10 @@
     "\\SiteFonts",
     "\\SiteImages",
     "\\SiteImages\\BlogMedia",
+    "\\SiteImages\\BlogMedia\\Jerry",
     "\\SiteImages\\BlogMedia\\Kevin",
-    "\\SiteImages\\BlogMedia\\Tom",
-    "\\SiteImages\\BlogMedia\\Zach",
     "\\SitePages"
   ],
-  "SelectedNode": "\\SiteImages\\BlogMedia\\Kevin\\Kevin_TargetDummy.gif",
+  "SelectedNode": "\\SiteCSS\\SiteStyle.css",
   "PreviewInSolutionExplorer": false
 }
