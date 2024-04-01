@@ -37,19 +37,19 @@
             <div class="cell-m2b1"> <p> <a href="../SitePages/Homepage.html#Month2Build1"> Build 1 <br /> Doodles! Dungeons! and Destruction? </a> </p> </div>
             <div class="cell-m2b2"> <p> <a href="../SitePages/Homepage.html#Month2Build2"> Build 2 <br /> A Relaxed Rework </a> </p> </div>
             <div class="cell-m2b3"> <p> <a href="../SitePages/Homepage.html#Month2Build3"> Build 3 <br /> Bits and Pieces </a> </p> </div>
-            <!--<div class="cell-m2b4"> <p> <a href="../SitePages/Homepage.html#Month2Build4"> Build 4</a> </p> </div>
+            <div class="cell-m2b4"> <p> <a href="../SitePages/Homepage.html#Month2Build4"> Build 4 <br /> We're halfway there! </a> </p> </div>
 
-    <div class="cell-m3title"> <p>Month 3</p> </div>
-    <div class="cell-m3b1"> <p> <a href="../SitePages/Homepage.html#Month3Build1"> Build 1</a> </p> </div>
-    <div class="cell-m3b2"> <p> <a href="../SitePages/Homepage.html#Month3Build2"> Build 2</a> </p> </div>
-    <div class="cell-m3b3"> <p> <a href="../SitePages/Homepage.html#Month3Build3"> Build 3</a> </p> </div>
-    <div class="cell-m3b4"> <p> <a href="../SitePages/Homepage.html#Month3Build4"> Build 4</a> </p> </div>
+            <!--<div class="cell-m3title"> <p>Month 3</p> </div>
+            <div class="cell-m3b1"> <p> <a href="../SitePages/Homepage.html#Month3Build1"> Build 1</a> </p> </div>
+            <div class="cell-m3b2"> <p> <a href="../SitePages/Homepage.html#Month3Build2"> Build 2</a> </p> </div>
+            <div class="cell-m3b3"> <p> <a href="../SitePages/Homepage.html#Month3Build3"> Build 3</a> </p> </div>
+            <div class="cell-m3b4"> <p> <a href="../SitePages/Homepage.html#Month3Build4"> Build 4</a> </p> </div>
 
-    <div class="cell-m4title"> <p>Month 4</p> </div>
-    <div class="cell-m4b1"> <p> <a href="../SitePages/Homepage.html#Month4Build1"> Build 1</a> </p> </div>
-    <div class="cell-m4b2"> <p> <a href="../SitePages/Homepage.html#Month4Build2"> Build 2</a> </p> </div>
-    <div class="cell-m4b3"> <p> <a href="../SitePages/Homepage.html#Month4Build3"> Build 3</a> </p> </div>
-    <div class="cell-m4b4"> <p> <a href="../SitePages/Homepage.html#Month4Build4"> Build 4</a> </p> </div>-->
+            <div class="cell-m4title"> <p>Month 4</p> </div>
+            <div class="cell-m4b1"> <p> <a href="../SitePages/Homepage.html#Month4Build1"> Build 1</a> </p> </div>
+            <div class="cell-m4b2"> <p> <a href="../SitePages/Homepage.html#Month4Build2"> Build 2</a> </p> </div>
+            <div class="cell-m4b3"> <p> <a href="../SitePages/Homepage.html#Month4Build3"> Build 3</a> </p> </div>
+            <div class="cell-m4b4"> <p> <a href="../SitePages/Homepage.html#Month4Build4"> Build 4</a> </p> </div>-->
         </div>
     </section>
     <section id="Blogs">
@@ -94,6 +94,60 @@
                     <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/" /> <p> Caption Media </p> </div>
                 </div>
             </section>-->
+            <section id="Month2Build4">
+                <div class="blogSection">
+                    <div class="blogTitle">
+                        Mar. 31, 2024 - We're halfway there!
+                        <div class="ProjectLink">
+                            <p>Download <a href="https://drive.google.com/file/d/1fZ4pxPNa7U_A1vasT3CuRtk_seOXAKiZ/view?usp=drive_link" target="_blank">Version 0.7 </a> here. </p>
+                        </div>
+                    </div>
+                    <div class="blogTitleMember"> <a href="linkedin post link" target="_blank"> Jerry B. </a> </div>
+                    <div class="blogBody">
+                        <p> </p>
+                    </div>
+                    <div class="blogMedia">
+                        <video controls>
+                            <source src="../SiteImages/BlogMedia/Jerry/" type="video/mp4">
+                        </video> <p> Caption Media </p>
+                    </div>
+                    <div class="blogTitleMember"> <a href="linkedin post link" target="_blank"> Zach B. </a> </div>
+                    <div class="blogBody">
+                        <p> </p>
+                    </div>
+                    <div class="blogMedia">
+                        <img src="../SiteImages/BlogMedia/Zach/">
+                        <p> Caption Media </p>
+                    </div>
+                    <div class="blogTitleMember"> Tom O. </div>
+                    <div class="blogBody">
+                        <p> This has finally been a good week of development for networked objects. Networked objects have been a massive annoyance for a while now. I started by trying to just make it so the object would parent to the hand. But for network for game objects you can't just do that as normal. So instead you have to use their "TryParent()" method on the Network Object. But that wasn't working for me for a while. </p>
+                        <p> I eventually was able to fix it but was soon to realize that it wouldn't be able to be parented to the players hand. This was because you can't have child network objects under a network object. So instead I had to set rotation and position with an offset generated by the rotation so it would line up. All in all these last few weeks trying to make this work have been very painful but I'm happy I finally made it work.</p>
+                    </div>
+                    <div class="blogMedia">
+                        <img src="../SiteImages/BlogMedia/Tom/Tom_SyncedObjects.png"> <p> Finally, after a long wait. Networked objects! </p>
+                    </div>
+                    <br />
+                    <div class="blogTitleMember"> <a href="linkedin post link" target="_blank"> Kevin W. </a> </div>
+                    <div class="blogBody">
+                        <p>
+                            To recap some of the things I have worked on this past week, I have been networking a bunch of my old features and adding new ones! There are now Mask Effects for when an enemy gets hit they have an expression change. There are also now over 1000 unique mask combinations within the customization station as well.
+                        </p>
+                        <p>
+                            I have also worked on a player shop and a loot table system that features all available weapons and items within the game. This will allow players the ability to change weapons during their dungeon run.
+                        </p>
+                        <p>
+                            The last and probably biggest thing I have worked on this last week was consolidation for the build. The team was finally able to combine features together showcasing our cumulative work over the past 2 months together. (Enemy AI, Procedural Generating Dungeons, Procedural Animations, VR Player, Interactive UI, Networking Objects, the list keeps going!). Consolidation was one thing I was happy to take part in as it provided me with a new look on everyone's progress within the project and also helped me understand the importance of code clarity and making things easily diagnosable.
+                        </p>
+                        <p>
+                            I can't wait to continue working on this project but first comes Spring Break, so I will probably be taking a week off to finally relax and go play some games, suggestions anyone?
+                        </p>
+                    </div>
+                    <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/Kevin_Gameplay1.png" /> <p> Networked Damage Indicators and Mask Hit Effects in action! </p> </div>
+                    <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/Kevin_Gameplay2.png" /> <p> Pause Menu finally added to the player! </p> </div>
+                    <div class="blogMedia"> <img src="../SiteImages/BlogMedia/Kevin/Kevin_Gameplay3.png" /> <p> Interactive Controls Menu </p> </div>
+                </div>
+            </section>
             <section id="Month2Build3">
                 <div class="blogSection">
                     <div class="blogTitle">
